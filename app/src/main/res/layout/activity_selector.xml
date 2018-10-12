@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#DC8C8C"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:text="Select the blood group you want!"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:spinnerMode="dropdown"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="wrap_content"
+            android:text="SHOW ALL"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:onClick="Find"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="100dp"
+            android:text="SHOW NEAREST"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:onClick="Near"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

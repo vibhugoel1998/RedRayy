@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "346201488798",
+    "firebase_url": "https://redray-84586.firebaseio.com",
+    "project_id": "redray-84586",
+    "storage_bucket": "redray-84586.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346201488798:android:7bcdbebd787de3cf",
+        "android_client_info": {
+          "package_name": "com.example.vibhu.redrayy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346201488798-781kp51gtdo1128ukoc4d6mpcflbhcv7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vibhu.redrayy",
+            "certificate_hash": "34297e5f53951cbacd2b37741b7ae5f2c13dd96b"
+          }
+        },
+        {
+          "client_id": "346201488798-jdpnpvkh6v7c0app866ggnjumhpb5bq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYh8Kgs4TQBy6UmeGP6NzrxFBpJ_8U9p4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346201488798-jdpnpvkh6v7c0app866ggnjumhpb5bq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
